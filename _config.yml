@@ -1,0 +1,8 @@
+title: Your Blog Title
+description: A brief description of your blog
+theme: minima
+author: Your Name
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/

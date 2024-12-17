@@ -24,10 +24,14 @@ h1 {
 }
 
 .wrestler-section h2 {
-    width: 100%; /* Ensure the header spans the full width */
-    font-size: 1.8em; /* Adjust heading size */
-    margin: 10px 0; /* Adjust margin for the heading */
-    color: #2980b9; /* Heading color */
+    width: 100%;
+    /* Ensure the header spans the full width */
+    font-size: 1.8em;
+    /* Adjust heading size */
+    margin: 10px 0;
+    /* Adjust margin for the heading */
+    color: #2980b9;
+    /* Heading color */
 }
 
 article {
@@ -56,12 +60,18 @@ a:hover {
 
 .embed-container {
     position: relative;
-    height: 360px; /* Set a fixed height for the video */
-    max-width: 525px; /* Set a maximum width for the video */
-    margin-bottom: 1em; /* Center the video */
-    margin-left: auto; /* Center the video */
-    margin-right: auto; /* Center the video */
-    overflow: hidden; /* Hide overflow */
+    height: 360px;
+    /* Set a fixed height for the video */
+    max-width: 525px;
+    /* Set a maximum width for the video */
+    margin-bottom: 1em;
+    /* Center the video */
+    margin-left: auto;
+    /* Center the video */
+    margin-right: auto;
+    /* Center the video */
+    overflow: hidden;
+    /* Hide overflow */
 }
 
 .embed-container iframe {
@@ -74,40 +84,60 @@ a:hover {
 
 .wrestler-section {
     display: flex;
-    flex-direction: column; /* Stack wrestler sections vertically */
-    margin-bottom: 20px; /* Space between wrestler sections */
-    border: 1px solid #ddd; /* Optional: Add a border for better separation */
-    border-radius: 5px; /* Optional: Rounded corners */
-    padding: 15px; /* Optional: Add padding inside the section */
-    background-color: #fff; /* Optional: Background color for the section */
+    flex-direction: column;
+    /* Stack wrestler sections vertically */
+    margin-bottom: 20px;
+    /* Space between wrestler sections */
+    border: 1px solid #ddd;
+    /* Optional: Add a border for better separation */
+    border-radius: 5px;
+    /* Optional: Rounded corners */
+    padding: 15px;
+    /* Optional: Add padding inside the section */
+    background-color: #fff;
+    /* Optional: Background color for the section */
 }
 
 .wrestler-text {
-    width: 450px; /* Set fixed width for the text column */
-    padding-right: 20px; /* Space between text and video */
-    flex-shrink: 0; /* Prevent it from shrinking */
+    width: 100%;
+    /* Set width to 100% for responsiveness */
+    max-width: 600px;
+    /* Set a maximum width for larger screens */
+    padding-right: 20px;
+    /* Space between text and video */
+    flex-shrink: 0;
+    /* Prevent it from shrinking */
 }
 
 .wrestler-video {
-    width: 525px; /* Fixed width for the video column */
-    max-width: 100%; /* Ensure it doesn't exceed the container */
-    flex-shrink: 0; /* Prevent it from shrinking */
+    width: 525px;
+    /* Fixed width for the video column */
+    max-width: 100%;
+    /* Ensure it doesn't exceed the container */
+    flex-shrink: 0;
+    /* Prevent it from shrinking */
 }
 
 .wrestler-text p {
-    margin: 10px 0; /* Add margin to paragraphs for spacing */
+    margin: 10px 0;
+    /* Add margin to paragraphs for spacing */
 }
+
 @media (max-width: 600px) {
     .wrestler-section {
-        flex-direction: column; /* Stack elements vertically on small screens */
+        flex-direction: column;
+        /* Stack elements vertically on small screens */
     }
 
     .wrestler-text {
-        width: 100%; /* Full width for text on small screens */
-        padding-right: 0; /* Remove right padding */
+        width: 100%;
+        /* Full width for text on small screens */
+        padding-right: 0;
+        /* Remove right padding */
     }
 
     .wrestler-video {
-        width: 100%; /* Full width for videos on small screens */
+        width: 100%;
+        /* Full width for videos on small screens */
     }
 }

@@ -5,4 +5,5 @@ author: Your Name
 
 # Build settings
 markdown: kramdown
+baseurl: "/blog"
 permalink: /:year/:month/:day/:title/

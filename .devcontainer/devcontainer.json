@@ -4,24 +4,16 @@
     "features": {
         "ghcr.io/devcontainers/features/github-cli:1": {}
     },
-    "postCreateCommand": "bundle install",
+    "postCreateCommand": 
+        "bundle install && echo \"alias serve='bundle exec jekyll serve --host=0.0.0.0 --config _config.yml,_config_dev.yml'\" >> ~/.bashrc"
+    ,
     "customizations": {
         "vscode": {
-            "extensions": [
-                "streetsidesoftware.code-spell-checker",
-                "yzhang.markdown-all-in-one"
-            ]
-        },
-        "codespaces": {
-            "repositories": {
-                "*": {
-                    "scripts": {
-                        "serve": "bundle exec jekyll serve --host=0.0.0.0 --config _config.yml,_config_dev.yml"
-                    }
-                }
-            }
+            "extensions": []
         }
     },
-    "forwardPorts": [4000],
+    "forwardPorts": [
+        4000
+    ],
     "remoteUser": "vscode"
 }

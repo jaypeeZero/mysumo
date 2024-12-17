@@ -1,17 +1,20 @@
+<h2 style="width: 100%;">
+    <a href="{{ include.profile_url }}" target="_blank">{{ include.name }}</a>
+</h2>
 <div class="wrestler-section">
     <div class="wrestler-text">
-        {{ include.text }}
+        <p>{{ include.text }}</p>
     </div>
     <div class="wrestler-videos">
         {% if include.videos %}
-            {% assign video_ids = include.videos | split: ',' %}
-            {% for video in video_ids %}
-                <div class="wrestler-video">
-                    {% include youtube.html id=video %}
-                </div>
-            {% endfor %}
+        {% assign video_ids = include.videos | split: ',' %}
+        {% for video in video_ids %}
+        <div class="wrestler-video">
+            {% include youtube.html id=video %}
+        </div>
+        {% endfor %}
         {% else %}
-            <!-- No videos available -->
+        <!-- No videos available -->
         {% endif %}
     </div>
 </div>

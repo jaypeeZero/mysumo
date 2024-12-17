@@ -23,10 +23,11 @@ h1 {
     color: #2c3e50;
 }
 
-h2 {
-    font-size: 1.8em;
-    margin: 20px 0 10px;
-    color: #2980b9;
+.wrestler-section h2 {
+    width: 100%; /* Ensure the header spans the full width */
+    font-size: 1.8em; /* Adjust heading size */
+    margin: 10px 0; /* Adjust margin for the heading */
+    color: #2980b9; /* Heading color */
 }
 
 article {
@@ -57,7 +58,7 @@ a:hover {
     position: relative;
     height: 360px; /* Set a fixed height for the video */
     max-width: 525px; /* Set a maximum width for the video */
-    margin-bottom: 1em;
+    margin-bottom: 1em; /* Center the video */
     margin-left: auto; /* Center the video */
     margin-right: auto; /* Center the video */
     overflow: hidden; /* Hide overflow */
@@ -74,15 +75,24 @@ a:hover {
 .wrestler-section {
     display: flex;
     margin-bottom: 20px; /* Space between wrestler sections */
+    border: 1px solid #ddd; /* Optional: Add a border for better separation */
+    border-radius: 5px; /* Optional: Rounded corners */
+    padding: 15px; /* Optional: Add padding inside the section */
+    background-color: #fff; /* Optional: Background color for the section */
 }
 
 .wrestler-text {
-    flex: 1; /* Takes up the remaining space */
+    width: 450px; /* Set fixed width for the text column */
     padding-right: 20px; /* Space between text and video */
+    flex-shrink: 0; /* Prevent it from shrinking */
 }
 
 .wrestler-video {
     width: 525px; /* Fixed width for the video column */
     max-width: 100%; /* Ensure it doesn't exceed the container */
     flex-shrink: 0; /* Prevent it from shrinking */
+}
+
+.wrestler-text p {
+    margin: 10px 0; /* Add margin to paragraphs for spacing */
 }

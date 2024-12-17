@@ -1,3 +1,4 @@
 title: Your Blog Title
 description: A brief description of your blog
 theme: minima
+baseurl: "/mysumo"

@@ -74,6 +74,7 @@ a:hover {
 
 .wrestler-section {
     display: flex;
+    flex-direction: column; /* Stack wrestler sections vertically */
     margin-bottom: 20px; /* Space between wrestler sections */
     border: 1px solid #ddd; /* Optional: Add a border for better separation */
     border-radius: 5px; /* Optional: Rounded corners */
@@ -95,4 +96,18 @@ a:hover {
 
 .wrestler-text p {
     margin: 10px 0; /* Add margin to paragraphs for spacing */
+}
+@media (max-width: 600px) {
+    .wrestler-section {
+        flex-direction: column; /* Stack elements vertically on small screens */
+    }
+
+    .wrestler-text {
+        width: 100%; /* Full width for text on small screens */
+        padding-right: 0; /* Remove right padding */
+    }
+
+    .wrestler-video {
+        width: 100%; /* Full width for videos on small screens */
+    }
 }

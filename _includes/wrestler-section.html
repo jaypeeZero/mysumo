@@ -7,15 +7,14 @@
     </div>
     <div class="wrestler-videos">
         {% if include.videos %}
-        <div class="wrestler-video">
             {% assign video_ids = include.videos | split: ',' %}
             {% for video in video_ids %}
-            <div class="wrestler-video">
-                {% include youtube.html id=video %}
-            </div>
+                <div class="wrestler-video">
+                    {% include youtube.html id=video %}
+                </div>
             {% endfor %}
-            {% else %}
+        {% else %}
             <!-- No videos available -->
-            {% endif %}
-        </div>
+        {% endif %}
     </div>
+</div>

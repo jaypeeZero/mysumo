@@ -33,6 +33,8 @@ In fact, none of his losses were even upsets, so the 9-6 might be bad, but it's 
 They both were 13-1 going into the last day and were facing each other.  
 Absolute spectacle.  
 
+In case that's not clear, the tournament championship was only winnable by these 2 men on the last day, and their opponents were each other.
+
 Hoshoryu's tournament was marked by incredible throwing technique, winning 4 out of 5 days in a row with throws.  
 {% include youtube.html id="_D-xMEjptms" %}
 {% include youtube.html id="kI5RHQS8Jgs" %}

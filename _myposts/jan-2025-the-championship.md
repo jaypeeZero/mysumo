@@ -43,6 +43,7 @@ I'll show some of his matches _when I talk about other wrestlers, because they b
 10-5.
 
 A better tournament, but still just about the bare minimum needed from an Ozeki. He didn't challenge for the tournament at any point, he had a few good matches, but it took him until Day 6 to look like he _earned_ a win.
+
 [Vs Wakatakakage](https://www.youtube.com/watch?v=JVEghK36WVo)  
 [Vs Atamifuji](https://www.youtube.com/watch?v=uBHJFoNKViE)
 
@@ -91,10 +92,14 @@ Keep in mind that Kinbozan is _massively overperforming_ this tournament.
 If he wins this match _he wins the whole tournament AND stops Hoshoryu from becoming a Yokozuna_.
 
 Here is the match on the final day vs Oho.
-https://www.youtube.com/watch?v=iKgmJDDMxOw
+{% include youtube.html id="iKgmJDDMxOw" %}
 
 After you watch that, now watch the last 10 minutes of the official highlights of the final day, starting with Hoshryu's match _against Kotozakura_.
 
-https://youtu.be/RZNC3At3hKM?t=1226
+
+  **I CAN'T EMBED TO A TIME IN THE VIDEO!**
+  **START WATCHING AT 20:00**
+
+{% include youtube.html id="RZNC3At3hKM" %}
 
 After all this, _tell me you have made it this far so I can talk to you about it!_

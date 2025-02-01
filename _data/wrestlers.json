@@ -5,63 +5,72 @@
       "japanese_name": "豊昇龍",
       "rank": "Yokozuna",
       "video_search": "豊昇龍",
-      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3842/"
+      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3842/",
+      "image_url": "https://www.sumo.or.jp/img/sumo_data/rikishi/60x60/3842.jpg"
     },
     {
       "name": "Terunofuji",
       "japanese_name": "照ノ富士",
       "rank": "Yokozuna", 
       "video_search": "照ノ富士",
-      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3321/"
+      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3321/",
+      "image_url": "https://www.sumo.or.jp/img/sumo_data/rikishi/60x60/3321.jpg"
     },
     {
       "name": "Kotozakura",
       "japanese_name": "琴櫻",
       "rank": "Ozeki",
       "video_search": "琴櫻", 
-      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3661/"
+      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3661/",
+      "image_url": "https://www.sumo.or.jp/img/sumo_data/rikishi/60x60/3661.jpg"
     },
     {
       "name": "Onosato",
       "japanese_name": "大の里",
       "rank": "Ozeki",
       "video_search": "大の里",
-      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/4227/"
+      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/4227/",
+      "image_url": "https://www.sumo.or.jp/img/sumo_data/rikishi/60x60/4227.jpg"
     },
     {
       "name": "Wakamotoharu",
       "japanese_name": "若元春",
       "rank": "Sekiwake",
       "video_search": "若元春",
-      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3371/"
+      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3371/",
+      "image_url": "https://www.sumo.or.jp/img/sumo_data/rikishi/60x60/3371.jpg"
     },
     {
       "name": "Daieisho",
       "japanese_name": "大栄翔",
       "rank": "Sekiwake",
       "video_search": "大栄翔",
-      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3376/"
+      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3376/",
+      "image_url": "https://www.sumo.or.jp/img/sumo_data/rikishi/60x60/3376.jpg"
     },
     {
       "name": "Abi",
       "japanese_name": "阿炎",
       "rank": "Komusubi",
       "video_search": "阿炎",
-      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3485/"
+      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3485/",
+      "image_url": "https://www.sumo.or.jp/img/sumo_data/rikishi/60x60/3485.jpg"
     },
     {
       "name": "Wakatakakage",
       "japanese_name": "若隆景",
       "rank": "Komusubi",
       "video_search": "若隆景",
-      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3761/"
+      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/3761/",
+      "image_url": "https://www.sumo.or.jp/img/sumo_data/rikishi/60x60/3761.jpg"
     },
     {
       "name": "Takanosho",
       "japanese_name": "高正",
       "rank": "Maegashira 1",
       "video_search": "高正",
-      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/xxx"
+      "profile_url": "https://www.sumo.or.jp/EnSumoDataRikishi/profile/xxx",
+      "image_url": "xxx"
     },
     {
       "name": "Kirishima",

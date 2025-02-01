@@ -21,5 +21,5 @@ categories: [Sumo, Reference, 2025, January]
 - {{ wrestler.name }} ({{ wrestler.japanese_name }}) - [Videos](https://www.youtube.com/@sumo-video/search?query={{ wrestler.video_search }}) | [Profile]({{ wrestler.profile_url }}){% endif %}{% endfor %}
 
 ## Maegashira
-{% for i in (1..17) %}{% for wrestler in site.data.wrestlers.wrestlers %}{% if wrestler.rank == "Maegashira " | append: i %}
+{% for i in (1..17) %}{% for wrestler in site.data.wrestlers.wrestlers %}{% if wrestler.rank == "Maegashira" | append: i %}
 - {{ wrestler.name }} ({{ wrestler.japanese_name }}) - [Videos](https://www.youtube.com/@sumo-video/search?query={{ wrestler.video_search }}) | [Profile]({{ wrestler.profile_url }}){% endif %}{% endfor %}{% endfor %}
